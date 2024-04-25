@@ -1,0 +1,60 @@
+
+
+:root{
+    --cor-de-fundo: #FFFFFF;
+    --botao:  rgba(111, 255, 87, 1);
+    --botao: rgba(58, 55, 94, 1);
+    --botao: rgba(58, 55, 94, 0.5);
+    --botao:rgba(255, 255, 255, 1);
+    --botao:rgba(255, 255, 255, 1);
+    --botao:rgba(6, 1, 14, 0);
+    --botao:rgba(252, 87, 255, 1);   
+}
+
+.body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.conteudo-prinvipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+
+}
+
+.titulo-principal span{
+    color: var(--verde) 
+}   
+.botao{
+    font-family:"chakra petch", sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex; 
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-inativo);
+    border-left: 4px solid var(--botao-inativo);
+    border-right: 4px solid var(--botao-inativo);
+    border-top: none;
+    
+}
+
+
+
+@media screen and {(min-width; 768px) 
+    
+}
